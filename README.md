@@ -7,6 +7,7 @@
   <li>Instale as dependências necessárias</li>
   <li>Rode o comando "npm run build"</li>
   <li>Por fim, rode o comando "npm run preview". Após isso o frontend estará rodando na porta 5001</li>
+  </br>
   <p>**** rode o comando "npm run dev" para rodar os arquivos sem necessidade de realizar uma build</p>
 
 </ul>
