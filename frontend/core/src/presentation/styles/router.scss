@@ -1,0 +1,8 @@
+@import "./color.module.scss";
+
+.routerContainer{
+    //position: relative;
+    background-color: $background;
+    width: 100%;
+    height: 100%;
+}

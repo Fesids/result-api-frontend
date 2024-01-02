@@ -1,0 +1,42 @@
+@import "../../../../styles/color.module.scss";
+
+.listContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-direction: row;
+    margin-top: 30.5px;
+    margin-bottom: 43.5px;
+    gap: 92px;
+    
+}
+
+
+
+@media (max-width: 900px) {
+    .listContainer{
+        grid-template-columns: repeat(3, 0.2fr);
+        place-content: center;
+        row-gap: 31.5px;
+        column-gap: 75px;
+
+       
+    }
+    
+}
+
+@media (max-width: 695px) {
+
+    .listContainer{
+        
+        align-items: center;
+        grid-template-columns: repeat(2, 0.2fr);
+        place-content: center;
+        row-gap: 31.5px;
+        column-gap: 42px;
+
+        .subjectItemWrap{
+            flex: 40%;
+        }
+    }
+    
+}

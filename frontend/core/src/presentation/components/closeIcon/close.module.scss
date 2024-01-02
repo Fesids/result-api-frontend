@@ -1,0 +1,8 @@
+.close{
+    height: 32px;
+    background-color: white;
+    -webkit-mask: url("/icons/Chart.svg") no-repeat center;
+    mask-image: url(/icons/X.svg);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}

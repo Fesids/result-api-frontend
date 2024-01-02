@@ -1,0 +1,74 @@
+@import '../../styles/color.module.scss';
+
+.subjectWrap{
+    display: flex;
+    justify-content: center;
+    
+    width: 157px;
+    height: 146px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+
+    .subjectContainer{
+        margin-top: 16px;
+        height: 110px;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 3fr 0.5fr;
+
+        .info{
+            margin-left: 16px;
+            .subjectName{
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+                margin-bottom: 8px;
+            }
+    
+            .creationDate{
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 12px;
+            }
+        }
+
+        .gradeWrap{
+            display: inline-flex;
+            height: 30px;
+            padding: 5px 76px 5px 13.825px;
+            align-items: center;
+            flex-shrink: 0;
+            background-color: rgba(15, 15, 15, 0.70);
+            width: 100%;
+
+            .gradeContainer{
+                display: grid;
+                grid-template-columns: 20px 20px;
+                flex-direction: row;
+                align-items: center;
+                width: 100%;
+
+                img{
+                    color: green;
+                    fill: purple;
+                }
+
+                .grade{
+                    width: 65px;
+                    margin-left: 5px;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 14px;
+                    
+                }
+
+
+            }
+        }
+        
+    }
+}

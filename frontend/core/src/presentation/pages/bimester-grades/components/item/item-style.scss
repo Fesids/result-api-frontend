@@ -1,0 +1,11 @@
+.subjectItemWrap{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+   
+    .trashIcon{
+        position: absolute;
+        top: 0px;
+        left: 166px;
+    }
+}

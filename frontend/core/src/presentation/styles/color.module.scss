@@ -1,0 +1,24 @@
+$background: #0F0F0F;
+$biology-bg: #CC4090;
+$art-bg: #05A2C2;
+$geo-bg: #C26719;
+$sociology-bg: #9B19C2;
+$negative-gr: #FF5964;
+$medium-gr: #FF9;
+$positive-gr: #05FF00;
+$modal-frame-bg: rgba(0, 0, 0, 0.80);
+$btn-bg: #E9FF1A;
+
+
+:export{
+    
+    geoBg: $geo-bg;
+    bioBg: $biology-bg;
+    artBg: $art-bg;
+    socioBg: $sociology-bg;
+    negativeGr: $negative-gr;
+    mediumGr: $medium-gr;
+    positiveGr: $positive-gr;
+
+
+}

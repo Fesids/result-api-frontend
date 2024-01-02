@@ -1,0 +1,26 @@
+.modalHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+
+    
+    h2{
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        width: 218px;
+        display: flex;
+        height: 65px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .closeWrap{
+        height: 32px;
+        width: 32px;
+    }
+}
